@@ -14,6 +14,11 @@
 		3B8E644B20D8D01A005C79EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8E644920D8D01A005C79EC /* LaunchScreen.storyboard */; };
 		3B8E645620D8D01A005C79EC /* Homework_HelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E645520D8D01A005C79EC /* Homework_HelperTests.swift */; };
 		3B8E646120D8D01A005C79EC /* Homework_HelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E646020D8D01A005C79EC /* Homework_HelperUITests.swift */; };
+		5E096AEC20D99C77000B439F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E096AEB20D99C77000B439F /* LoginViewController.swift */; };
+		5E096AEE20D99C94000B439F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E096AED20D99C94000B439F /* SignUpViewController.swift */; };
+		5E096AF020D9A1E3000B439F /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E096AEF20D9A1E3000B439F /* FeedViewController.swift */; };
+		5E096AF220D9A24C000B439F /* FilteredFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E096AF120D9A24C000B439F /* FilteredFeedViewController.swift */; };
+		5E096AF420D9A258000B439F /* MyPostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E096AF320D9A258000B439F /* MyPostsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		3B8E645C20D8D01A005C79EC /* Homework HelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homework HelperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B8E646020D8D01A005C79EC /* Homework_HelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework_HelperUITests.swift; sourceTree = "<group>"; };
 		3B8E646220D8D01A005C79EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E096AEB20D99C77000B439F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5E096AED20D99C94000B439F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5E096AEF20D9A1E3000B439F /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		5E096AF120D9A24C000B439F /* FilteredFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredFeedViewController.swift; sourceTree = "<group>"; };
+		5E096AF320D9A258000B439F /* MyPostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPostsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,11 @@
 			children = (
 				3B8E644020D8D019005C79EC /* AppDelegate.swift */,
 				3B8E644220D8D019005C79EC /* ViewController.swift */,
+				5E096AED20D99C94000B439F /* SignUpViewController.swift */,
+				5E096AEB20D99C77000B439F /* LoginViewController.swift */,
+				5E096AEF20D9A1E3000B439F /* FeedViewController.swift */,
+				5E096AF120D9A24C000B439F /* FilteredFeedViewController.swift */,
+				5E096AF320D9A258000B439F /* MyPostsViewController.swift */,
 				3B8E644420D8D019005C79EC /* Main.storyboard */,
 				3B8E644720D8D01A005C79EC /* Assets.xcassets */,
 				3B8E644920D8D01A005C79EC /* LaunchScreen.storyboard */,
@@ -256,7 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E096AEC20D99C77000B439F /* LoginViewController.swift in Sources */,
 				3B8E644320D8D019005C79EC /* ViewController.swift in Sources */,
+				5E096AF420D9A258000B439F /* MyPostsViewController.swift in Sources */,
+				5E096AF020D9A1E3000B439F /* FeedViewController.swift in Sources */,
+				5E096AEE20D99C94000B439F /* SignUpViewController.swift in Sources */,
+				5E096AF220D9A24C000B439F /* FilteredFeedViewController.swift in Sources */,
 				3B8E644120D8D019005C79EC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
